@@ -1,0 +1,73 @@
+.pp-card {
+    background-color: #4285F4;
+    font-family: Inter Tight; 
+    color: white;
+    width: 600px;
+    margin: 0 auto;
+    padding: 16px;
+    border-radius: 8px;
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.25);
+}
+
+.pp-row-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px;
+
+}
+
+.pp-row-title > h2 {
+    font-size: 24px;
+    font-weight: 700px;
+    font-family: Inter Tight;
+    margin: 0px;
+}
+
+.pp-row-description {
+    margin: -4px 0px 0px 0px;
+}
+
+.pp-row-description > p {
+    font-weight: 100px; 
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.pp-row-blank {
+    height: 24px;
+}
+
+.pp-edit-delete-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 50px;
+}
+
+.pp-edit-delete-icons > img {
+    width: 18px; 
+    height: 18px;
+}
+
+.pp-row-like-comment-text {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.pp-row-like-comment-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center; 
+}
+
+.pp-row-like-comment-icons > img {
+    width: 18px;
+    height: 18px;
+}
