@@ -1,4 +1,5 @@
 import { createRoot } from "react-dom/client"
+import Card from "./components/Card.jsx"
 
 const App = () => {
     return (
